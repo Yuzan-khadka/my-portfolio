@@ -1,0 +1,38 @@
+.my-education-section{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 4px solid #d3de07c4;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+td{
+    padding: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    table{
+        font-size: 12px;
+    }
+    td{
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    table{
+        font-size: 10px;
+    }
+
+    td{
+        padding: 8px;
+    }
+}
